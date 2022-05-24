@@ -1,0 +1,114 @@
+:root {
+  --primary-color: hsl(200, 15%, 8%);
+  --secondary-color: whitesmoke;
+  --body-background: #fff;
+}
+.dark-theme {
+  --primary-color: #fff;
+  --secondary-color: hsl(200, 15%, 8%);
+  --body-background: hsl(207, 26%, 17%);
+}
+body {
+  background-color: var(--secondary-color);
+}
+h3 {
+  color: var(--primary-color);
+}
+h4 {
+  color: var(--primary-color);
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin-right: 350px;
+  margin-left: 350px;
+}
+.Github {
+  padding-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: var(--body-background);
+  color: var(--primary-color);
+}
+.git {
+  display: flex;
+}
+button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-left: -70px;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.octocatContainer {
+  margin-top: 30px;
+  height: 330px;
+  background-color: var(--body-background);
+  border-radius: 10px;
+}
+.octocat {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  /* width: 60px; */
+  height: 90px;
+  border-radius: 60px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+p {
+  color: #fff;
+}
+.date {
+  margin-right: 30px;
+  color: var(--primary-color);
+}
+.oct {
+  color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+.profile {
+  color: var(--primary-color);
+}
+.repos {
+  height: 100px;
+  background-color: var(--secondary-color);
+  width: 350px;
+  margin-left: 170px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.eight {
+  color: var(--primary-color);
+  margin-top: 10px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+.foot h4 {
+  margin-left: 163px;
+  color: var(--primary-color);
+}
+.footer {
+  display: flex;
+}
+.light {
+  cursor: pointer;
+  color: var(--primary-color);
+}
